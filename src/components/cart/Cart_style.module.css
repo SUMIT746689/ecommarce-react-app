@@ -1,0 +1,28 @@
+.allCart{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+.cart{
+    width: 200px;
+    height: 350px;
+    padding: 5px;
+    box-shadow: rgba(255, 255, 255, 0.452);
+}
+.image{
+  width: 100%;
+}
+.button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color:rgba(255, 255, 255, 0);
+    border:1px solid white;
+    color:seashell;
+    transition: ease-in-out 0.2s;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}
